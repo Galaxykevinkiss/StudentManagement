@@ -1,0 +1,12 @@
+# PyCharm 配置
+.idea/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 日志文件
+*.log
+
+# 程序运行生成的数据
+out.json

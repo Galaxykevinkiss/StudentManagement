@@ -15,3 +15,6 @@ class Student:
             "age": self.age,
             "score": self.score
         }
+
+    def introduce(self):
+        print(f"大家好，我叫{self.name}，今年{self.age}岁")

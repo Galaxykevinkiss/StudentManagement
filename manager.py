@@ -43,3 +43,12 @@ class StudentManager:
         average = total / len(self.students)
 
         print("平均成绩：", average)
+
+    def update_student(self, name, new_score):
+        for student in self.students:
+            if student.name == name:
+                student.score = new_score
+                print("修改成功！")
+                return
+
+        print("没有找到该学生")

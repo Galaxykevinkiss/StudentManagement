@@ -1,12 +1,13 @@
-# PyCharm 配置
-.idea/
-
 # Python 缓存
 __pycache__/
-*.pyc
+*.py[cod]
 
-# 日志文件
-*.log
+# Python 虚拟环境
+.venv/
+venv/
 
-# 程序运行生成的数据
-out.json
+# 本地数据库
+*.db
+
+# PyCharm 配置
+.idea/
